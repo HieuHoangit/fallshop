@@ -1,0 +1,256 @@
+#home1 {
+    background-image: url(../Image/sb_1570684484_63.jpg);
+    display: table;
+    height: 400px;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.hdproduct {
+    margin-top: 100px;
+}
+
+.hdproduct h1 {
+    font-weight: bold;
+    color: #f70909;
+    font-family: cursive
+}
+
+.hdproduct h3 {
+    color: rgb(248, 247, 252);
+    font-weight: bold;
+}
+
+.breadcrumb-option {
+    background: #f3f2ee;
+    padding: 5px 0;
+}
+
+.breadcrumb__text h4 {
+    color: #fa0909;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.breadcrumb__links a {
+    font-size: 15px;
+    color: black;
+}
+
+.breadcrumb__links a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.breadcrumb__links a:after {
+    position: absolute;
+    right: -14px;
+    top: 0;
+    font-family: "FontAwesome";
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .breadcrumb-option {
+        margin-top: 30px;
+    }
+}
+
+#shop {
+    background-image: url(../Image/background3.jpg);
+    display: table;
+    height: 200px;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    border-radius: 2px;
+}
+
+.navtab #nav-tab a {
+    color: black !important;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.hdshop {
+    margin-top: 50px;
+}
+
+.hdshop h2 {
+    font-weight: bold;
+    color: #f70909;
+    font-family: cursive
+}
+
+.hdshop span {
+    font-weight: bold;
+    color: #dc3545;
+}
+
+.btn-outline-success {
+    color: #dc3545!important;
+    border-color: #dc3545!important;
+}
+
+
+.product p {
+    font-size: 18px;
+    padding-bottom: 17px;
+    font-weight: bold;
+}
+
+.product p span {
+    color: #f70909;
+    font-weight: 600;
+}
+
+.dropdown {
+
+}
+
+a.btnproduct {
+    color: black;
+    font-size: 17px;
+}
+
+a.btnproduct:hover {
+    text-decoration: none;
+    color: rgb(95, 90, 90);
+}
+
+a.color {
+    color: black;
+    font-size: 15px;
+    padding-right: 20px;
+}
+
+a.color:hover {
+    text-decoration: none;
+    color: rgb(95, 90, 90);
+}
+
+.pro h3 {
+    color: rgb(194, 73, 73);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pro a {
+    font-weight: 700;
+    color: #000;
+}
+
+.pro a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.sale {
+    display: block;
+    background-color: white;
+    box-shadow: 5px 10px 8px #888888;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+.sale h3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(194, 73, 73);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.sale1 {
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 900;
+    background: -webkit-linear-gradient(90deg, #663737 0%, #b44c4c91 0%, rgba(197, 195, 45, 0.3) 70%, rgba(11, 52, 201, 0.01) 100%, #36457a 100%);
+}
+
+.sale1 span {
+    color: #663737;
+    font-size: 12px;
+}
+
+.nav-tabs span {
+    padding-right: 50px;
+    font-size: 20px;
+    display: block;
+    color: #9e1c1c;
+    font-weight: 600;
+}
+
+.card-body h6 {
+    color: #884e4e;
+}
+
+.clothes-image1 a {
+    overflow: hidden;
+}
+
+.clothes-image1 a img {
+    transition: all 0.6s ease-out 0s
+}
+
+.clothes-image1 a:hover img {
+    transform: scale(1.1);
+}
+
+.product__pagination {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.product__pagination a {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #111111;
+    height: 30px;
+    width: 30px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+}
+
+.product__pagination a.active {
+    border-color: #111111;
+}
+
+.product__pagination a:hover {
+    border-color: #111111;
+    text-decoration: none;
+    color: black;
+}
+
+.product__pagination span {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #111111;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.start {
+    color: coral;
+}
+
+.card-text {
+    font-weight: 600;
+}
+
+.card-title span {
+    border: 1px solid red;
+    font-size: 13px;
+    padding: 3px 1px;
+    border-radius: 2px;
+    color: red;
+}

@@ -1,0 +1,45 @@
+﻿h4.widget-title {
+    margin-bottom: 0px !important;
+}
+.container {
+    margin-top: 0%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.color-div{
+    background: rgb(51, 45, 45);
+
+}
+.container-footer{
+     margin-top: 0%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+.navbar navbar-expand-md{
+    		background: black;
+    	}
+        .navbar {
+            
+            background: black !important;
+            ;
+            width: 100%;
+            z-index: 10;
+            border-bottom: 1 px solid rgba(216, 216, 216);
+        }
+        
+        .nav-link {
+            color: #f8f9fa !important;
+            font-weight: 500 !important;
+            text-transform: uppercase !important;
+    		letter-spacing: 2px !important;
+    		font-size: 14px !important;
+        }
+        .hd h1 {
+        	font-size: 4.0rem;
+     		
+        }

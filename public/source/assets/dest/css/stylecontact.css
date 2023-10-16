@@ -1,0 +1,134 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 15px;
+    }
+    
+    .navbar {
+        text-transform: uppercase;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        
+        font-size: 15px;
+    }
+    
+    .nav-item a {
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: bold;
+        color: #575151;
+    }
+    
+    .nav-link:hover {
+        color: rgb(248, 8, 8)!important;
+        margin-right: 5px;
+    }
+    
+    .contact {
+        position: relative;
+        min-height: 100vh;
+        padding: 50px 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /*background: url(https://www.sapo.vn/blog/wp-content/uploads/2015/10/8-meo-trang-tri-giup-cua-hang-quan-ao-hut-khach-am-am.jpg);*/
+        background: url(../Image/background3.jpg);
+    }
+    
+    .contact .content {
+        max-width: 800px;
+        text-align: center;
+    }
+    
+    .contact .content h1 {
+        font-size: 40px;
+        
+        color: #111111;
+    }
+    
+    .contact .content span {
+        font-size: 15px;
+        font-weight: 500;
+        color: #111111;
+    }
+    
+    .contact .content p {
+        font-size: 50px;
+        font-weight: 500;
+        color: black
+    }
+    
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    .container .contactInfo {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin-left: -150px;
+    }
+    
+    .container .contactInfo .box {
+        position: relative;
+        padding: 5px 0;
+        display: flex;
+    }
+    
+    .container .contactInfo .box .icon {
+        min-width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 22px;
+    }
+    
+    .contactForm .inputBox {
+        margin-top: 20px;
+    }
+    
+    .contactForm .inputBox input,
+    .contactForm .inputBox textarea {
+        width: 200%;
+        padding: 5px 5px;
+        font-size: 16px;
+        margin: 10px 0;
+        border: none;
+        outline: none;
+        resize: none;
+    }
+    
+    .container .contactInfo .box .text p,
+    .container .contactInfo .box .text h3 {
+        font-size: 20px;
+        color: #111111
+    }
+    
+    .contact1 {
+        margin-top: 40px;
+    }
+    
+    @media only screen and (min-width: 576px) and (max-width: 767px) {
+        .contactForm .inputBox input,
+        .contactForm .inputBox textarea {
+            width: 100%;
+        }
+    }
+    
+    @media (max-width: 575px) {
+        .contactForm .inputBox input,
+        .contactForm .inputBox textarea {
+            width: 70%;
+        }
+    }

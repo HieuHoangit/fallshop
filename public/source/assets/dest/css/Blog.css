@@ -1,0 +1,124 @@
+	.col-xs-12>.hd1 {
+		text-align: left ;
+	}
+	.img-responsive{
+			display: block;
+    max-width: 100%;
+    height: auto;
+	}
+	.col-sm-8>..hd1 {
+		text-align: left ;
+	}
+	.col-sm-4>.sidebar>.hd1 {
+		text-align: left ;
+	}
+	.col-xs-6{
+		width: 50%;
+	}
+	div[class*="col-"] {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+div[class*="row"] {
+    margin-left: -12px;
+    margin-right: -12px;
+}
+	.info a {
+		color: #212529;
+		font-size: 22px;
+    	font-weight: 600;
+	}
+	.news-item a{
+		color: #212529;
+	}
+	.info a:hover {
+    color: rgb(99, 87, 87);
+    text-decoration:none;
+	}
+    .news-item a:hover {
+    color: rgb(99, 87, 87);
+    text-decoration:none;
+	}
+
+	}	
+	.info span {
+	color: rgb(99, 87, 87);
+	font-weight: 550;
+	}
+	.info p {
+	color: rgb(99, 87, 87);
+	font-weight: 550;
+	}
+	.news-item>.img img:hover{
+		-webkit-box-shadow: -1px 9px 40px -12px #6c757d;
+        -moz-box-shadow: -1px 9px 40px -12px #6c757d;
+        box-shadow: -1px 9px 40px -12px #6c757d;
+	}
+	.col-xs-12 hr{
+	border-top: 2px solid rgb(177, 170, 166) !important;
+	margin-top: 0rem !important;
+}
+	.clearfix:before{
+display: table;
+    content: " ";
+}
+	.clearfix:after{
+		clear: both;
+}
+.clearfix:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clearfix:after{
+		display: table;
+    content: " ";
+
+}
+.clearfix:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.news-pipeline-item {
+    border-bottom: 1px solid rgb(177, 170, 166);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.product__pagination {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.product__pagination a {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #111111;
+    height: 30px;
+    width: 30px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+}
+
+.product__pagination a.active {
+    border-color: #111111;
+}
+
+.product__pagination a:hover {
+    border-color: #111111;
+    text-decoration: none;
+    color: black;
+}
+
+.product__pagination span {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #111111;
+    padding-left: 10px;
+    padding-right: 15px;
+}
